@@ -169,4 +169,4 @@ Live Production Instance: **[https://portfolio-lime-eight-d4nwl00cu2.vercel.app/
   <sub>Designed & Developed with precision by <b>Preetham V R</b>. Powered by clean code, pure CSS, and modern web standards.</sub>
 </div>
 
-<!-- [build] 2026-10-20 13:30:00 - feat: add Journey distance banner with coordinate display -->
+<!-- [build] 2026-10-20 19:30:00 - style: polish brutalist section layout borders and typography spacing -->
