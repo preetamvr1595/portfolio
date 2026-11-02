@@ -2510,4 +2510,4 @@ html.negative-mode {
   box-shadow: 0 0 25px rgba(0, 140, 255, 0.7) !important;
 }
 
-/* Step 11: feat: introduce canvas container for 3D dithered particle sphere */
+/* Step 12: feat: implement mathematical 3D sphere coordinate generator in script.js */

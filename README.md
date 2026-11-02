@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 11: feat: introduce canvas container for 3D dithered particle sphere - 2026-10-25 00:07:30 +0530 -->
+<!-- Commit 12: feat: implement mathematical 3D sphere coordinate generator in script.js - 2026-10-25 03:56:15 +0530 -->
