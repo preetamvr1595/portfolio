@@ -1267,4 +1267,3 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 59: fix: polish final typography spacing and canvas container responsiveness
