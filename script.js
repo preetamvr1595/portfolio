@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 35: feat: add audio volume toggle and sound synthesis fallback handler
+// Step 36: feat: scaffold Contact & Encrypted Terminal section
