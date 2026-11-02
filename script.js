@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 37: feat: implement interactive terminal message composer layout
+// Step 38: feat: add email, LinkedIn, and GitHub external connection links
