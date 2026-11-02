@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 52: style: fine-tune mobile drawer and layout responsiveness (320px - 767px)
+// Step 53: feat: add Open Graph and Twitter Card social media meta tags
