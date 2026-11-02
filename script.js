@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 18: style: design brutalist metric counters and impact indicator badges
+// Step 19: feat: scaffold Selected Projects section with grid container
