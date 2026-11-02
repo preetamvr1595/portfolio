@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 14: style: tune particle sphere opacity, size, and rotation damping - 2026-10-25 11:33:45 +0530 -->
+<!-- Commit 15: feat: scaffold About & Journey section layout - 2026-10-25 15:22:30 +0530 -->

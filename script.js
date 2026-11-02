@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 14: style: tune particle sphere opacity, size, and rotation damping
+// Step 15: feat: scaffold About & Journey section layout
