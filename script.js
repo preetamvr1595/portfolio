@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 29: feat: add Engineering Mathematics and statistics skill indicators
+// Step 30: style: implement interactive skill hover states and brutalist tag styling

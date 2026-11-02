@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 29: feat: add Engineering Mathematics and statistics skill indicators - 2026-10-27 20:45:00 +0530 -->
+<!-- Commit 30: style: implement interactive skill hover states and brutalist tag styling - 2026-10-28 00:33:45 +0530 -->
