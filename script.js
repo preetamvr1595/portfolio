@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 16: feat: add academic background and GM University credentials
+// Step 17: feat: add core engineering philosophy and technical pillars
