@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 22: feat: implement Sentiment Analysis NLP engine case study card
+// Step 23: feat: implement Diabetic Retinopathy deep learning vision card
