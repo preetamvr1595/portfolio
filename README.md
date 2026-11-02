@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 56: style: refine brutalist border lines, shadows, and monospaced accents - 2026-11-01 03:41:15 +0530 -->
+<!-- Commit 57: docs: update README with deployment instructions for GitHub Pages - 2026-11-01 07:30:00 +0530 -->

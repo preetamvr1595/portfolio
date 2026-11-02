@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 56: style: refine brutalist border lines, shadows, and monospaced accents
+// Step 57: docs: update README with deployment instructions for GitHub Pages
