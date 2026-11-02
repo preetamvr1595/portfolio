@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 4: feat: add Google fonts preconnect and typography styling - 2026-10-23 21:26:15 +0530 -->
+<!-- Commit 5: style: setup design tokens and CSS custom properties for dark brutalist aesthetic - 2026-10-24 01:15:00 +0530 -->
