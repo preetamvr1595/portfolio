@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 24: style: enhance project cards with mono borders, tags, and hover micro-animations - 2026-10-27 01:41:15 +0530 -->
+<!-- Commit 25: feat: scaffold Skills Matrix section with category tabs - 2026-10-27 05:30:00 +0530 -->

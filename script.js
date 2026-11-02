@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 24: style: enhance project cards with mono borders, tags, and hover micro-animations
+// Step 25: feat: scaffold Skills Matrix section with category tabs
