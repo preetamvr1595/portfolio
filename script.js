@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 34: feat: integrate Web Audio API synthetic click sound for tactile feedback
+// Step 35: feat: add audio volume toggle and sound synthesis fallback handler

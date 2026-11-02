@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 34: feat: integrate Web Audio API synthetic click sound for tactile feedback - 2026-10-28 15:48:45 +0530 -->
+<!-- Commit 35: feat: add audio volume toggle and sound synthesis fallback handler - 2026-10-28 19:37:30 +0530 -->
