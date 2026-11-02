@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 30: style: implement interactive skill hover states and brutalist tag styling
+// Step 31: feat: create The Lab experimental playground section
