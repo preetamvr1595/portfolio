@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 58: chore: include nested portfolio bundle in Preetham_Personal_Portfolio
+// Step 59: fix: polish final typography spacing and canvas container responsiveness
