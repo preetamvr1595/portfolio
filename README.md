@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 23: feat: implement Diabetic Retinopathy deep learning vision card - 2026-10-26 21:52:30 +0530 -->
+<!-- Commit 24: style: enhance project cards with mono borders, tags, and hover micro-animations - 2026-10-27 01:41:15 +0530 -->

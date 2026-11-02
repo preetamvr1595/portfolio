@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 23: feat: implement Diabetic Retinopathy deep learning vision card
+// Step 24: style: enhance project cards with mono borders, tags, and hover micro-animations
