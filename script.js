@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 49: refactor: optimize 3D particle sphere render loop for 60fps performance
+// Step 50: perf: debounced resize listener and canvas DPR resolution scaling

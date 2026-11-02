@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 49: refactor: optimize 3D particle sphere render loop for 60fps performance - 2026-10-31 01:00:00 +0530 -->
+<!-- Commit 50: perf: debounced resize listener and canvas DPR resolution scaling - 2026-10-31 04:48:45 +0530 -->
