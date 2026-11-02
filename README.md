@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 13: feat: add interactive mouse orbit and perspective projection to particle sphere - 2026-10-25 07:45:00 +0530 -->
+<!-- Commit 14: style: tune particle sphere opacity, size, and rotation damping - 2026-10-25 11:33:45 +0530 -->

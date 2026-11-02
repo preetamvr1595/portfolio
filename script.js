@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 13: feat: add interactive mouse orbit and perspective projection to particle sphere
+// Step 14: style: tune particle sphere opacity, size, and rotation damping
