@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 53: feat: add Open Graph and Twitter Card social media meta tags
+// Step 54: feat: add favicon SVG and apple-touch-icon links
