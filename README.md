@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 10: feat: add hero section structure with intro typography and badges - 2026-10-24 20:18:45 +0530 -->
+<!-- Commit 11: feat: introduce canvas container for 3D dithered particle sphere - 2026-10-25 00:07:30 +0530 -->
