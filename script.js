@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 17: feat: add core engineering philosophy and technical pillars
+// Step 18: style: design brutalist metric counters and impact indicator badges

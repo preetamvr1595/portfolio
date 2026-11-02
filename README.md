@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 17: feat: add core engineering philosophy and technical pillars - 2026-10-25 23:00:00 +0530 -->
+<!-- Commit 18: style: design brutalist metric counters and impact indicator badges - 2026-10-26 02:48:45 +0530 -->
