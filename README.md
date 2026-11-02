@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 55: accessibility: add ARIA labels, roles, and keyboard navigation support - 2026-10-31 23:52:30 +0530 -->
+<!-- Commit 56: style: refine brutalist border lines, shadows, and monospaced accents - 2026-11-01 03:41:15 +0530 -->

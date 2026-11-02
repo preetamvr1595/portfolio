@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 55: accessibility: add ARIA labels, roles, and keyboard navigation support
+// Step 56: style: refine brutalist border lines, shadows, and monospaced accents
