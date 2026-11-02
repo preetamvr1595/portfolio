@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 57: docs: update README with deployment instructions for GitHub Pages
+// Step 58: chore: include nested portfolio bundle in Preetham_Personal_Portfolio
