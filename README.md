@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 15: feat: scaffold About & Journey section layout - 2026-10-25 15:22:30 +0530 -->
+<!-- Commit 16: feat: add academic background and GM University credentials - 2026-10-25 19:11:15 +0530 -->

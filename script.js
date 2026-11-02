@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 15: feat: scaffold About & Journey section layout
+// Step 16: feat: add academic background and GM University credentials
