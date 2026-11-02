@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 32: feat: add Negative Mode high-contrast theme toggle functionality
+// Step 33: style: define high-contrast negative mode CSS inverted palette
