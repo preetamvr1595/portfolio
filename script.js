@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 25: feat: scaffold Skills Matrix section with category tabs
+// Step 26: feat: add core programming languages (Python, SQL, JavaScript, C++)
