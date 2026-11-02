@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 31: feat: create The Lab experimental playground section
+// Step 32: feat: add Negative Mode high-contrast theme toggle functionality
