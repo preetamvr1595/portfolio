@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 28: feat: add Deep Learning, Computer Vision, and NLP skill badges
+// Step 29: feat: add Engineering Mathematics and statistics skill indicators

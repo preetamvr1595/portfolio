@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 28: feat: add Deep Learning, Computer Vision, and NLP skill badges - 2026-10-27 16:56:15 +0530 -->
+<!-- Commit 29: feat: add Engineering Mathematics and statistics skill indicators - 2026-10-27 20:45:00 +0530 -->
