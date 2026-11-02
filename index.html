@@ -1,0 +1,1501 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
+  <meta name="author" content="Preetham V R">
+  <title>Preetham V R — Applied AI &amp; Machine Learning Engineer | Davangere, IN</title>
+  <meta name="description" content="Portfolio of Preetham V R, postgraduate in AI & Data Analytics. Machine learning engineering, computer vision, NLP, and applied AI systems.">
+
+  <!-- Google Fonts: Big Shoulders Display, Geist Mono & Geist -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Geist+Mono:wght@300;400;500;600&family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dots">
+
+  <!-- Custom Trailing Circle Cursor (Desktop) -->
+  <div class="custom-cursor" id="customCursor"></div>
+
+  <!-- Grain Overlay -->
+  <div class="grain"></div>
+
+  <!-- ==========================================================================
+       BRUTALIST INTRO / PRELOADER SHELL
+       ========================================================================== -->
+  <div class="shell" id="shell" role="status" aria-label="Loading Portfolio">
+    <div class="shell-top">
+      <span>Preetham V R — Portfolio</span>
+      <span>©2026</span>
+    </div>
+    <div class="shell-bottom">
+      <span class="shell-count" id="shell-count">000</span>
+      <div class="shell-bar"><i id="shell-bar"></i></div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       SITE HEADER & STICKY NAVIGATION
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a class="brand" href="#top">PREETHAM<span>.</span>VR</a>
+
+      <nav class="nav-links">
+        <a class="nav-link active" href="#about">01 ABOUT</a>
+        <a class="nav-link" href="#ploppy">02 AI AGENT</a>
+        <a class="brand-emblem" href="#top" title="Preetham V R">PV</a>
+        <a class="nav-link" href="#work">03 PROJECTS</a>
+        <a class="nav-link" href="#lab">04 LAB</a>
+        <a class="nav-link" href="#contact">05 CONTACT</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="lang-switch">
+          <button class="lang-btn" id="langFrBtn">FR</button>
+          <button class="lang-btn active" id="langEnBtn">EN</button>
+        </div>
+        <a class="btn-solid" href="mailto:preetham.vr.ai@gmail.com" style="padding: 6px 14px; font-size: 10px;">HIRE ME ↗</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+    <!-- Mobile Nav Drawer -->
+    <div class="mobile-nav-drawer" id="mobileDrawer">
+      <a href="#about">01 ABOUT</a>
+      <a href="#ploppy">02 AI AGENT</a>
+      <a href="#work">03 PROJECTS</a>
+      <a href="#toolkit">04 TOOLKIT</a>
+      <a href="#experience">05 EXPERIENCE</a>
+      <a href="#lab">06 LAB</a>
+      <a href="#contact">07 CONTACT</a>
+    </div>
+  </header>
+
+  <!-- Announcement Sub-Bar -->
+  <div class="announcement-bar">
+    <span class="badge-box">PV</span>
+    <span>AVAILABLE FOR NEW ROLES &amp; RESEARCH COLLABORATIONS — APPLIED AI &amp; ML</span>
+    <a href="#contact">WRITE →</a>
+  </div>
+
+  <!-- ==========================================================================
+       METADATA INFO GRID (4 Columns)
+       ========================================================================== -->
+  <div class="meta-grid">
+    <div class="meta-col">
+      <div class="meta-title">ENGINEER / SPECIALIST</div>
+      <div class="meta-val">PREETHAM V R</div>
+    </div>
+    <div class="meta-col">
+      <div class="meta-title">LOCATION / REGION</div>
+      <div class="meta-val">DAVANGERE, KARNATAKA, IN</div>
+    </div>
+    <div class="meta-col">
+      <div class="meta-title">SPECIALIZATION / FOCUS</div>
+      <div class="meta-val">AI &amp; DATA ANALYTICS</div>
+    </div>
+    <div class="meta-col">
+      <div class="meta-title">LOCAL TIME (IST)</div>
+      <div class="meta-val">
+        <span id="localClock">15 46</span>
+        <button class="star-btn" id="starBtn1" title="Find star 1 of 3" aria-label="Favorite Star 1">☆</button>
+      </div>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section">
+      <!-- 3D Dithered Particle Orb / Globe Canvas Background -->
+      <div class="hero-canvas-container">
+        <canvas id="heroCanvas"></canvas>
+      </div>
+
+      <div class="hero-main-layout">
+        <div class="hero-left">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>[ 00 ] · OPEN TO COLLABORATIONS</span>
+          </div>
+          <h1 class="hero-headline">
+            BUILDING<br>
+            <span class="outline">INTELLIGENCE</span><br>
+            INTO SYSTEMS.
+          </h1>
+        </div>
+
+        <div class="hero-card crosshair">
+          <p>
+            AI &amp; Data Analytics postgraduate focused on practical machine learning, deep learning architectures, and data-driven software. I transform ambiguous questions into evaluated models and production-ready applications.
+          </p>
+          <div class="hero-card-actions">
+            <a class="btn-ghost" href="#work">SEE PROJECTS</a>
+            <a class="btn-solid" href="#contact">GET IN TOUCH →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Giant Edge-to-Edge Watermark -->
+      <div class="hero-watermark">
+        <div class="hero-watermark-text">PREETHAM V R</div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BANNER TICKER / MARQUEE RIBBON
+         ========================================================================== -->
+    <div class="ticker-wrap">
+      <div class="ticker-track">
+        <div class="ticker-item"><span class="outline">ANALYZE</span> ✳ <span class="solid">MODEL</span> ✳ <span class="outline">DEPLOY</span> ✳ <span class="subtle">TRANSFORMING DATA INTO INTELLIGENT SYSTEMS</span> ✳</div>
+        <div class="ticker-item"><span class="outline">ANALYZE</span> ✳ <span class="solid">MODEL</span> ✳ <span class="outline">DEPLOY</span> ✳ <span class="subtle">TRANSFORMING DATA INTO INTELLIGENT SYSTEMS</span> ✳</div>
+        <div class="ticker-item"><span class="outline">ANALYZE</span> ✳ <span class="solid">MODEL</span> ✳ <span class="outline">DEPLOY</span> ✳ <span class="subtle">TRANSFORMING DATA INTO INTELLIGENT SYSTEMS</span> ✳</div>
+        <div class="ticker-item"><span class="outline">ANALYZE</span> ✳ <span class="solid">MODEL</span> ✳ <span class="outline">DEPLOY</span> ✳ <span class="subtle">TRANSFORMING DATA INTO INTELLIGENT SYSTEMS</span> ✳</div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         SECTION 01: ABOUT & JOURNEY
+         ========================================================================== -->
+    <section id="about" class="section">
+      <div class="section-tag">
+        <span>|</span> [ 01 / 04 ] · ABOUT
+      </div>
+      <h2 class="section-headline">
+        FROM DATA TO<br>
+        <em>INTELLIGENCE.</em>
+      </h2>
+
+      <div class="about-grid">
+        <div class="about-body">
+          <div class="about-lead">
+            “I don’t want to just use intelligent tools. I want to understand how they work from first principles — and build them.”
+          </div>
+          <p>
+            I am a final-year MCA student specializing in AI &amp; Data Analytics at GM University, Davangere. With a strong mathematical grounding, I approach artificial intelligence with a focus on statistical validation, clean feature pipelines, and pragmatic engineering.
+          </p>
+          <p>
+            My work spans end-to-end data workflows: identifying underlying distributions, feature engineering, training baselines with Scikit-learn, building deep convolutional models for image domains, and exploring NLP classification systems.
+          </p>
+          <p>
+            My long-term ambition is to advance into AI research and become an AI Scientist, pushing beyond off-the-shelf APIs to craft specialized, high-impact machine intelligence systems.
+          </p>
+        </div>
+
+        <div class="about-side crosshair">
+          <div class="side-meta-row">
+            <span>INSTITUTION</span>
+            <span>GM UNIVERSITY, DAVANGERE</span>
+          </div>
+          <div class="side-meta-row">
+            <span>DEGREE</span>
+            <span>MCA · AI &amp; DATA ANALYTICS</span>
+          </div>
+          <div class="side-meta-row">
+            <span>LOCATION</span>
+            <span>DAVANGERE, KARNATAKA, INDIA</span>
+          </div>
+          <div class="side-meta-row">
+            <span>COORDINATES</span>
+            <span>14.46°N · 75.92°E</span>
+          </div>
+          <div class="side-meta-row">
+            <span>FOCUS</span>
+            <span>AI / ML ENGINEERING · APPLIED AI</span>
+          </div>
+          <div class="side-actions">
+            <a class="btn-solid" href="#work">VIEW RESUME →</a>
+            <a class="btn-ghost" href="mailto:preetham.vr.ai@gmail.com?subject=Resume%20Request">DOWNLOAD RESUME PDF ↓</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======================================================================
+           THE JOURNEY & DISTANCE BANNER (Christen Dijoux Signature Element)
+           ====================================================================== -->
+      <div class="journey-card crosshair">
+        <div class="journey-left">
+          <div class="journey-tag">[ JOURNEY ] · KARNATAKA → GLOBAL AI</div>
+          <div class="journey-distance">
+            <span>14 420</span><span class="unit">KM</span>
+          </div>
+          <div class="journey-coords-grid">
+            <div class="journey-coord">
+              <span class="coord-label">FROM</span>
+              <span class="coord-val">DAVANGERE, IN</span>
+              <span class="coord-geo">14.46°N · 75.92°E</span>
+            </div>
+            <div class="journey-coord">
+              <span class="coord-label">NOW</span>
+              <span class="coord-val">GLOBAL / APPLIED AI</span>
+              <span class="coord-geo">FRONTIER ML &amp; DATA</span>
+            </div>
+          </div>
+          <p class="journey-desc">
+            From Davangere, Karnataka to the global artificial intelligence landscape. Connecting foundational mathematics, practical machine learning pipelines, and production systems.
+          </p>
+        </div>
+
+        <div class="journey-right">
+          <canvas id="journeyGlobeCanvas" class="journey-globe"></canvas>
+          <div class="globe-marker-tag">
+            <span>IN · 14.46°N</span>
+            <div class="marker-pulse"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======================================================================
+           THREE CORE PILLARS WITH GENERATIVE CANVASES
+           ====================================================================== -->
+      <div class="pillars-container">
+
+        <!-- Pillar #01: ML Pipelines with Generative Radial Rays Canvas -->
+        <div class="pillar-row crosshair">
+          <div class="pillar-visual-col">
+            <canvas id="radialRayCanvas" class="pillar-canvas"></canvas>
+          </div>
+          <div class="pillar-info-col">
+            <div class="pillar-badge">#01 · ML</div>
+            <h3 class="pillar-title-large">Machine Learning &amp; Pipelines</h3>
+            <p class="pillar-paragraph">
+              End-to-end predictive systems engineered with mathematical rigor. Automated feature extraction, distribution-aware outlier detection, custom encodings, and robust baseline benchmarking using Scikit-learn, NumPy, and Pandas.
+            </p>
+            <div class="pillar-chips">
+              <span class="chip">FEATURE ENGINEERING</span>
+              <span class="chip">OUTLIER FILTERING</span>
+              <span class="chip">REGRESSION &amp; ENSEMBLES</span>
+              <span class="chip">FASTAPI DEPLOYMENT</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar #02: Deep Learning & Vision with Topographic Wave Canvas -->
+        <div class="pillar-row reverse crosshair">
+          <div class="pillar-visual-col">
+            <canvas id="topoWaveCanvas" class="pillar-canvas"></canvas>
+          </div>
+          <div class="pillar-info-col">
+            <div class="pillar-badge">#02 · DL</div>
+            <h3 class="pillar-title-large">Computer Vision &amp; Deep Learning</h3>
+            <p class="pillar-paragraph">
+              High-stakes medical imagery classification and spatial feature extraction. Convolutional architectures, transfer learning baselines, and rigorous contrast normalization pipelines (CLAHE, circular masks) achieving high evaluation reliability.
+            </p>
+            <div class="pillar-chips">
+              <span class="chip">CONVOLUTIONAL NETWORKS</span>
+              <span class="chip">CLAHE FILTERING</span>
+              <span class="chip">OPENCV PIPELINES</span>
+              <span class="chip">MEDICAL SCREENING</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar #03: NLP with Dithered Matrix Canvas -->
+        <div class="pillar-row crosshair">
+          <div class="pillar-visual-col">
+            <canvas id="matrixMapCanvas" class="pillar-canvas"></canvas>
+          </div>
+          <div class="pillar-info-col">
+            <div class="pillar-badge">#03 · NLP</div>
+            <h3 class="pillar-title-large">Natural Language &amp; Signal</h3>
+            <p class="pillar-paragraph">
+              Converting unstructured human text and sentiment into quantifiable feature vectors. Text preprocessing, tokenization, TF-IDF vectorization, polarity scoring, and machine learning classifiers designed to extract intent.
+            </p>
+            <div class="pillar-chips">
+              <span class="chip">TF-IDF VECTORIZATION</span>
+              <span class="chip">SENTIMENT POLARITY</span>
+              <span class="chip">N-GRAM EXTRACTION</span>
+              <span class="chip">CLASSIFICATION MATRICES</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SKILLS MATRIX & AREAS OF EXPERTISE
+         ========================================================================== -->
+    <section id="toolkit" class="section">
+      <div class="skills-head">
+        <div>
+          <div class="section-tag">
+            <span>|</span> TOOLKIT
+          </div>
+          <h2 class="section-headline" style="margin-bottom: 0;">
+            SKILLS
+          </h2>
+        </div>
+        <div class="skills-count">STACK · 32+ TECHNOLOGIES</div>
+      </div>
+
+      <div class="skills-matrix">
+
+        <!-- Box 01 -->
+        <div class="skill-box crosshair">
+          <div class="skill-box-head">
+            <span class="skill-box-title">PROGRAMMING &amp; CORE</span>
+            <span class="skill-box-num">01</span>
+          </div>
+          <div class="skill-chips">
+            <span class="chip">PYTHON</span>
+            <span class="chip">JAVA</span>
+            <span class="chip">SQL</span>
+            <span class="chip">BASH / CLI</span>
+            <span class="chip">DATA STRUCTURES</span>
+            <span class="chip">ALGORITHMS</span>
+          </div>
+        </div>
+
+        <!-- Box 02 -->
+        <div class="skill-box crosshair">
+          <div class="skill-box-head">
+            <span class="skill-box-title">AI &amp; DATA ANALYTICS</span>
+            <span class="skill-box-num">02</span>
+          </div>
+          <div class="skill-chips">
+            <span class="chip">NUMPY</span>
+            <span class="chip">PANDAS</span>
+            <span class="chip">EXPLORATORY DATA ANALYSIS</span>
+            <span class="chip">DATA CLEANING</span>
+            <span class="chip">OUTLIER DETECTION</span>
+            <span class="chip">CORRELATION ANALYSIS</span>
+          </div>
+        </div>
+
+        <!-- Box 03 -->
+        <div class="skill-box crosshair">
+          <div class="skill-box-head">
+            <span class="skill-box-title">MACHINE LEARNING</span>
+            <span class="skill-box-num">03</span>
+          </div>
+          <div class="skill-chips">
+            <span class="chip">SCIKIT-LEARN</span>
+            <span class="chip">LINEAR REGRESSION</span>
+            <span class="chip">LOGISTIC REGRESSION</span>
+            <span class="chip">DECISION TREES</span>
+            <span class="chip">FEATURE ENGINEERING</span>
+            <span class="chip">MODEL EVALUATION</span>
+          </div>
+        </div>
+
+        <!-- Box 04 -->
+        <div class="skill-box crosshair">
+          <div class="skill-box-head">
+            <span class="skill-box-title">DEEP LEARNING &amp; VISION</span>
+            <span class="skill-box-num">04</span>
+          </div>
+          <div class="skill-chips">
+            <span class="chip">CONVOLUTIONAL NEURAL NETWORKS</span>
+            <span class="chip">OPENCV</span>
+            <span class="chip">IMAGE PREPROCESSING</span>
+            <span class="chip">TRANSFER LEARNING</span>
+            <span class="chip">PYTORCH / TENSORFLOW BASICS</span>
+          </div>
+        </div>
+
+        <!-- Box 05 -->
+        <div class="skill-box crosshair">
+          <div class="skill-box-head">
+            <span class="skill-box-title">NLP &amp; VISUALIZATION</span>
+            <span class="skill-box-num">05</span>
+          </div>
+          <div class="skill-chips">
+            <span class="chip">NATURAL LANGUAGE PROCESSING</span>
+            <span class="chip">TF-IDF</span>
+            <span class="chip">SENTIMENT ANALYSIS</span>
+            <span class="chip">MATPLOTLIB</span>
+            <span class="chip">SEABORN</span>
+            <span class="chip">POWER BI</span>
+          </div>
+        </div>
+
+        <!-- Box 06 -->
+        <div class="skill-box crosshair">
+          <div class="skill-box-head">
+            <span class="skill-box-title">ENGINEERING &amp; MATHEMATICS</span>
+            <span class="skill-box-num">06</span>
+          </div>
+          <div class="skill-chips">
+            <span class="chip">GIT &amp; GITHUB</span>
+            <span class="chip">LINEAR ALGEBRA</span>
+            <span class="chip">PROBABILITY &amp; STATISTICS</span>
+            <span class="chip">MULTIVARIABLE CALCULUS</span>
+            <span class="chip">FASTAPI / REST APIS</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Areas of Expertise Banner (Christen Dijoux exact design) -->
+      <div class="expertise-wrap">
+        <div class="expertise-label">AREAS OF EXPERTISE</div>
+        <div class="expertise-text">
+          Artificial Intelligence &amp; Applied AI / Machine Learning &amp; Predictive Modeling / Deep Learning &amp; Computer Vision / Natural Language Processing &amp; Text Mining / Exploratory Data Analysis &amp; Feature Pipelines / Statistical Inference &amp; Linear Algebra /
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROFESSIONAL EXPERIENCE & EDUCATION (Christen Dijoux exact structure)
+         ========================================================================== -->
+    <section id="experience" class="section">
+      <div class="exp-head">
+        <h2 class="section-headline" style="margin-bottom: 0;">
+          PROFESSIONAL EXPERIENCE
+        </h2>
+        <div class="exp-count">PATH</div>
+      </div>
+
+      <div class="experience-list">
+
+        <!-- Exp #1 -->
+        <div class="exp-row crosshair">
+          <div class="exp-col-date">
+            <span>#1 · 2024 - PRESENT</span>
+          </div>
+          <div class="exp-col-role">
+            <h3 class="exp-role-title">Postgraduate AI &amp; Data Analytics Specialist</h3>
+            <span class="exp-role-company">GM UNIVERSITY &amp; APPLIED LABS</span>
+          </div>
+          <div class="exp-col-desc">
+            <p>
+              Leading graduate research in applied machine learning, computer vision for medical fundus imagery, and multi-dimensional analytics. Architecting end-to-end data pipelines, custom preprocessing modules, and model evaluation benchmarks.
+            </p>
+            <div class="exp-tags">
+              <span class="chip">Applied Machine Learning</span>
+              <span class="chip">Deep Learning CNNs</span>
+              <span class="chip">Exploratory Data Analysis</span>
+              <span class="chip">Statistical Validation</span>
+              <span class="chip">FastAPI Services</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Exp #2 -->
+        <div class="exp-row crosshair">
+          <div class="exp-col-date">
+            <span>#2 · 2023 - 2024</span>
+          </div>
+          <div class="exp-col-role">
+            <h3 class="exp-role-title">Machine Learning Project Lead</h3>
+            <span class="exp-role-company">ACADEMIC &amp; INDEPENDENT PIPELINES</span>
+          </div>
+          <div class="exp-col-desc">
+            <p>
+              Engineered real-world machine learning systems including a Bengaluru real estate valuation engine handling extreme real-world noise, high-cardinality location encodings, and NLP review sentiment classifiers.
+            </p>
+            <div class="exp-tags">
+              <span class="chip">Feature Engineering</span>
+              <span class="chip">Outlier Removal</span>
+              <span class="chip">TF-IDF Vectorization</span>
+              <span class="chip">Linear Regression</span>
+              <span class="chip">Power BI Analytics</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Education Subsection -->
+      <div class="edu-wrap">
+        <div class="edu-label">EDUCATION</div>
+        <div class="edu-grid">
+          <div class="edu-card crosshair">
+            <div class="edu-year">2024 - 2026</div>
+            <h4 class="edu-title">Master of Computer Applications (MCA)</h4>
+            <div class="edu-institution">GM University, Davangere</div>
+            <div class="edu-focus">Specialization in AI &amp; Data Analytics · Statistical Modeling</div>
+          </div>
+
+          <div class="edu-card crosshair">
+            <div class="edu-year">2021 - 2024</div>
+            <h4 class="edu-title">Bachelor of Computer Applications (BCA)</h4>
+            <div class="edu-institution">Davangere University</div>
+            <div class="edu-focus">Computer Science, Discrete Mathematics, Data Structures &amp; Java</div>
+          </div>
+
+          <div class="edu-card crosshair">
+            <div class="edu-year">2024 - 2026</div>
+            <h4 class="edu-title">Applied AI &amp; Deep Learning Research</h4>
+            <div class="edu-institution">Independent Engineering Repositories</div>
+            <div class="edu-focus">Computer Vision, Medical Image Classification, NLP Text Mining</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Impact & Results Grid -->
+      <div class="impact-section-wrap">
+        <div class="impact-head">
+          <h3 class="impact-title">IMPACT &amp; RESULTS</h3>
+          <span class="impact-sub">RESULTS</span>
+        </div>
+
+        <div class="impact-grid">
+          <div class="impact-item crosshair">
+            <div class="impact-num">01</div>
+            <div class="impact-desc">End-to-end real estate valuation pipeline with custom outlier removal and high-cardinality location encoding.</div>
+          </div>
+          <div class="impact-item crosshair">
+            <div class="impact-num">02</div>
+            <div class="impact-desc">Medical computer vision model evaluating retinal fundus imagery for Diabetic Retinopathy stages.</div>
+          </div>
+          <div class="impact-item crosshair">
+            <div class="impact-num">03</div>
+            <div class="impact-desc">Unstructured text analytics engine classifying customer sentiment and polarity signals.</div>
+          </div>
+          <div class="impact-item crosshair">
+            <div class="impact-num">04</div>
+            <div class="impact-desc">Analytical dashboard (InsightAI) translating multi-dimensional datasets into intuitive visual intelligence.</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 02: NEURAL AGENT · MEET PLOPPY (Exact Match with Reference Image)
+         ========================================================================== -->
+    <section id="ploppy" class="ploppy-section">
+      <!-- Top Curved Grid Glow Card (Exact match with reference image) -->
+      <div class="ploppy-glow-card crosshair">
+        <div class="ploppy-glow-grid"></div>
+        <div class="ploppy-badge-tag" style="justify-content: center; margin-bottom: 12px;">
+          <span class="status-dot"></span> [ NEURAL AGENT ENGINE · AUTONOMOUS LABS ]
+        </div>
+        <h3>ENGINEERING INTELLIGENCE<br>&amp; AUTONOMOUS SYSTEMS.</h3>
+        <p>
+          We design and build machine learning models, autonomous agent workflows, and production-grade intelligent software for teams that care about real-world performance. Based in Davangere, Karnataka, collaborating with researchers and teams globally.
+        </p>
+        <div>
+          <a class="btn-pill-blue" href="#contact">Launch a project ↗</a>
+        </div>
+      </div>
+
+      <!-- Central Connector Emblem with Wave Logo (From reference image) -->
+      <div class="ploppy-connector">
+        <div class="ploppy-connector-badge" title="Neural Agent Core">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9v-2h2v2zm0-4H9V7h2v5zm4 4h-2v-2h2v2zm0-4h-2V7h2v5z" fill="currentColor"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- "We're Ploppy & Preetham. Pleased to meet you." (Exact layout from user photo) -->
+      <div class="meet-ploppy-grid">
+        <div class="ploppy-intro-col">
+          <div class="ploppy-badge-tag">
+            <span>[ 02 / 05 ] · CO-PILOT AGENT</span>
+          </div>
+          <h2 class="phunk-headline">
+            We’re <span class="cyan-glow-text">Ploppy &amp; Preetham.</span><br>
+            Pleased to meet you.
+          </h2>
+          <p class="ploppy-intro-p">
+            Ploppy is an interactive autonomous AI agent co-pilot engineered to assist and showcase Preetham’s research in Machine Learning, Computer Vision, and Real-Time Data Pipelines. Powered by LangGraph, LangChain, and high-performance neural workflows, it transforms complex data problem spaces into evaluated, production-ready systems.
+          </p>
+          <p class="ploppy-intro-p">
+            If you're looking for a forward-thinking engineer to build predictive models, multi-agent frameworks, medical computer vision pipelines, or full-stack SaaS tools that stand out from the crowd, then you're exactly where you need to be.
+          </p>
+          <div class="ploppy-actions-row">
+            <a class="btn-pill-blue" href="mailto:preetham.vr.ai@gmail.com?subject=Collaboration%20Inquiry%20from%20Portfolio">Hire Preetham ↗</a>
+            <button class="btn-ghost" id="talkWithPloppyBtn" style="padding: 10px 22px;">Talk with Ploppy 💬</button>
+          </div>
+        </div>
+
+        <!-- 3D Interactive Robot Viewport (Mouse-following head & blinking pixel eyes) -->
+        <div class="ploppy-robot-viewport" id="robotViewport">
+          <div class="ploppy-status-hud">
+            <span><i class="ploppy-hud-dot"></i>AGENT: PLOPPY v2.5</span>
+            <span>GAZE: TRACKING MOUSE</span>
+            <span>LATENCY: 14ms</span>
+          </div>
+
+          <!-- Canvas where the 3D Robot Doll is rendered -->
+          <canvas id="ploppyRobotCanvas" class="ploppy-robot-canvas"></canvas>
+
+          <!-- 3D Perspective Grid Floor -->
+          <div class="ploppy-grid-floor"></div>
+
+          <!-- Interactive Speech Bubble -->
+          <div class="ploppy-speech-bubble" id="ploppySpeechBubble">
+            ✦ <span class="highlight">Ploppy:</span> "Tracking cursor coordinates... Neural pipelines running at 100%! Click me to test diagnostics."
+          </div>
+        </div>
+      </div>
+
+      <!-- Laser-Focused Banner (Exact from user photo) -->
+      <div class="laser-banner-wrap">
+        <h2 class="laser-headline">
+          <span class="cyan-glow-text">Laser-focused</span> on 3<br>
+          key aspects of intelligence.
+        </h2>
+        <div class="laser-subhead">
+          01 · PREDICTIVE ML &amp; DATA PIPELINES &nbsp;·&nbsp; 02 · AUTONOMOUS AGENTS &amp; NLP &nbsp;·&nbsp; 03 · MEDICAL COMPUTER VISION
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 03: SELECTED PROJECTS (03 / 05 · WORK)
+         ========================================================================== -->
+    <section id="work" class="section">
+      <div class="section-tag">
+        <span>|</span> [ 03 / 05 ] · SELECTED WORK
+      </div>
+
+      <div class="projects-layout">
+        <!-- Sticky Sidebar with Filter Navigation -->
+        <div class="projects-sticky">
+          <h2 class="section-headline">
+            SELECTED<br>
+            PROJECTS
+          </h2>
+          <p style="font-size: 14px; color: var(--paper-muted); line-height: 1.6; margin-bottom: 20px;">
+            A curated showcase of real-world machine learning systems, multi-agent AI frameworks, computer vision screening models, and live deployed applications.
+          </p>
+
+          <!-- Dynamic Category Filters -->
+          <div class="projects-filters">
+            <button class="filter-btn active" data-filter="all">
+              <span>[ 00 ] · ALL PROJECTS</span>
+              <span>10</span>
+            </button>
+            <button class="filter-btn" data-filter="ml">
+              <span>[ 01 ] · APPLIED ML &amp; DATA</span>
+              <span>03</span>
+            </button>
+            <button class="filter-btn" data-filter="agents">
+              <span>[ 02 ] · AGENTS &amp; NLP</span>
+              <span>03</span>
+            </button>
+            <button class="filter-btn" data-filter="vision">
+              <span>[ 03 ] · COMPUTER VISION</span>
+              <span>02</span>
+            </button>
+            <button class="filter-btn" data-filter="saas">
+              <span>[ 04 ] · SAAS &amp; PLATFORMS</span>
+              <span>03</span>
+            </button>
+          </div>
+
+          <div class="projects-controls">
+            <a class="btn-ghost" href="https://github.com/preetamvr1595?tab=repositories" target="_blank" rel="noreferrer" style="width: 100%; text-align: center;">
+              EXPLORE ALL REPOSITORIES ON GITHUB ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="projects-stream" id="projectsStream">
+
+          <!-- Project 01: F1 Race Predictor (Live Deployment!) -->
+          <article class="project-slide crosshair" data-category="ml">
+            <div class="project-top-row">
+              <span>01 / 10 · APPLIED MACHINE LEARNING</span>
+              <span class="live-pill">LIVE CLOUD SERVICE</span>
+            </div>
+
+            <div class="project-screen-mock">
+              <div class="screen-content">
+                <div class="screen-badge">F1 PREDICTOR v3.2 · FASTF1 STREAMING API</div>
+                <div class="screen-title">Formula 1 Race Predictor</div>
+                <div class="screen-subtitle">REAL-TIME TELEMETRY · DEGRADATION VECTORS · PODIUM INFERENCE</div>
+                <div class="screen-bars">
+                  <span style="height: 92%; background: #00f5d4;"></span>
+                  <span style="height: 78%; background: #00d2ff;"></span>
+                  <span style="height: 64%;"></span>
+                  <span style="height: 88%;"></span>
+                  <span style="height: 45%;"></span>
+                  <span style="height: 96%; background: #00f5d4;"></span>
+                  <span style="height: 70%;"></span>
+                  <span style="height: 85%;"></span>
+                </div>
+                <div class="screen-ascii-status">
+                  <span>[INFERENCE: 14ms]</span>
+                  <span>[STREAM: LIVE API]</span>
+                  <span>[DEPLOY: RENDER PROD]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details-row">
+              <div>
+                <h3 class="project-title">F1 Race Predictor — Live API &amp; Telemetry Pipeline</h3>
+                <p class="project-desc">
+                  An end-to-end real-time machine learning pipeline that ingests live Formula 1 session telemetry, extracts dynamic lap pace slopes and tire degradation models, and outputs real-time win/podium probabilities through high-performance gradient-boosted ensembles.
+                </p>
+                <div class="project-tags">
+                  <span class="chip">PYTHON</span>
+                  <span class="chip">FASTF1 API</span>
+                  <span class="chip">SCIKIT-LEARN</span>
+                  <span class="chip">XGBOOST</span>
+                  <span class="chip">DOCKER</span>
+                  <span class="chip">RENDER</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <a class="btn-solid btn-live-accent" href="https://f1-race-predictor-live-api-data-pipeline.onrender.com" target="_blank" rel="noreferrer">
+                  LAUNCH LIVE APP ↗
+                </a>
+                <button class="btn-solid open-modal-btn" data-project-index="0">CASE STUDY</button>
+                <a class="btn-ghost" href="https://github.com/preetamvr1595/F1-Race-Predictor-Live-API-Data-Pipeline" target="_blank" rel="noreferrer">VIEW CODE ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02: NexusDesk AI IT Service Desk -->
+          <article class="project-slide crosshair" data-category="agents">
+            <div class="project-top-row">
+              <span>02 / 10 · AUTONOMOUS AI AGENTS</span>
+              <span class="live-pill">LANGGRAPH MESH</span>
+            </div>
+
+            <div class="project-screen-mock">
+              <div class="screen-content">
+                <div class="screen-badge">NEXUSDESK · MULTI-AGENT STATE GRAPH</div>
+                <div class="screen-title">NexusDesk AI IT Service</div>
+                <div class="screen-subtitle">LANGGRAPH · OLLAMA LOCAL INFERENCE · TRIAGE &amp; RESOLUTION</div>
+                <div class="screen-bars">
+                  <span style="height: 70%;"></span>
+                  <span style="height: 85%;"></span>
+                  <span style="height: 50%;"></span>
+                  <span style="height: 95%;"></span>
+                  <span style="height: 80%;"></span>
+                  <span style="height: 60%;"></span>
+                  <span style="height: 90%;"></span>
+                </div>
+                <div class="screen-ascii-status">
+                  <span>[AGENT: ROUTER -> RESOLVER]</span>
+                  <span>[STATE: ACTIVE GRAPH]</span>
+                  <span>[PRIVACY: LOCAL OLLAMA]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details-row">
+              <div>
+                <h3 class="project-title">NexusDesk — Multi-Agent AI IT Service Desk</h3>
+                <p class="project-desc">
+                  An enterprise-grade multi-agent autonomous IT Service Management system built with LangGraph, LangChain, and Flask. Routes incoming tickets, coordinates diagnostic agents, queries knowledge vector stores, and drafts automated technical resolutions.
+                </p>
+                <div class="project-tags">
+                  <span class="chip">LANGGRAPH</span>
+                  <span class="chip">LANGCHAIN</span>
+                  <span class="chip">MULTI-AGENT</span>
+                  <span class="chip">OLLAMA</span>
+                  <span class="chip">FLASK</span>
+                  <span class="chip">PYTHON</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <button class="btn-solid open-modal-btn" data-project-index="1">CASE STUDY</button>
+                <a class="btn-ghost" href="https://github.com/preetamvr1595/NexusDesk-AI-IT-Service-Desk" target="_blank" rel="noreferrer">VIEW CODE ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03: AI-Detection & Content Humanizer -->
+          <article class="project-slide crosshair" data-category="nlp">
+            <div class="project-top-row">
+              <span>03 / 10 · NATURAL LANGUAGE PROCESSING</span>
+              <span>ML &amp; STYLOMETRY · 2026</span>
+            </div>
+
+            <div class="project-screen-mock">
+              <div class="screen-content">
+                <div class="screen-badge">PERPLEXITY SCORE ENGINE · STYLISTIC REWRITER</div>
+                <div class="screen-title">AI Detection &amp; Humanizer</div>
+                <div class="screen-subtitle">BURSTINESS DISTRIBUTIONS · ENTROPY ANALYSIS · NATURAL REWRITE</div>
+                <div class="screen-bars">
+                  <span style="height: 60%;"></span>
+                  <span style="height: 85%;"></span>
+                  <span style="height: 40%;"></span>
+                  <span style="height: 90%;"></span>
+                  <span style="height: 75%;"></span>
+                  <span style="height: 65%;"></span>
+                  <span style="height: 80%;"></span>
+                </div>
+                <div class="screen-ascii-status">
+                  <span>[PERPLEXITY: 89.4]</span>
+                  <span>[BURSTINESS: OPTIMIZED]</span>
+                  <span>[HUMAN SCORE: 98.2%]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details-row">
+              <div>
+                <h3 class="project-title">AI Detection &amp; Humanizer Platform</h3>
+                <p class="project-desc">
+                  Machine learning application analyzing text across perplexity curves and structural variance to reliably flag AI-generated content and rewrite syntactical rhythms into natural human prose.
+                </p>
+                <div class="project-tags">
+                  <span class="chip">PYTHON</span>
+                  <span class="chip">NLP</span>
+                  <span class="chip">SCIKIT-LEARN</span>
+                  <span class="chip">STYLOMETRY</span>
+                  <span class="chip">FASTAPI</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <button class="btn-solid open-modal-btn" data-project-index="2">CASE STUDY</button>
+                <a class="btn-ghost" href="https://github.com/preetamvr1595/AI-Detection-Humanizer" target="_blank" rel="noreferrer">VIEW CODE ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 04: Mental Health AI Companion -->
+          <article class="project-slide crosshair" data-category="agents">
+            <div class="project-top-row">
+              <span>04 / 10 · CONVERSATIONAL AI</span>
+              <span>EMOTION &amp; SENTIMENT · 2026</span>
+            </div>
+
+            <div class="project-screen-mock">
+              <div class="screen-content">
+                <div class="screen-badge">EMPATHY ENGINE · DISTRESS CLASSIFIER</div>
+                <div class="screen-title">Mental Health AI Companion</div>
+                <div class="screen-subtitle">AFFECTIVE DIALOGUE · VALIDATION PROTOCOLS · CRISIS TRIAGE</div>
+                <div class="screen-bars">
+                  <span style="height: 75%;"></span>
+                  <span style="height: 60%;"></span>
+                  <span style="height: 90%;"></span>
+                  <span style="height: 55%;"></span>
+                  <span style="height: 85%;"></span>
+                  <span style="height: 70%;"></span>
+                </div>
+                <div class="screen-ascii-status">
+                  <span>[VALENCE: POSITIVE COMPASSION]</span>
+                  <span>[TRIAGE: REAL-TIME]</span>
+                  <span>[SAFETY: HOTLINE READY]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details-row">
+              <div>
+                <h3 class="project-title">Mental Health AI — Empathetic Dialogue Engine</h3>
+                <p class="project-desc">
+                  Empathetic conversational AI overcoming rigid rule-based chatbot responses. Detects emotional distress and frustration in real-time dialogue to offer psychological validation and active listening support.
+                </p>
+                <div class="project-tags">
+                  <span class="chip">TYPESCRIPT</span>
+                  <span class="chip">CONVERSATIONAL AI</span>
+                  <span class="chip">SENTIMENT ANALYSIS</span>
+                  <span class="chip">REST API</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <button class="btn-solid open-modal-btn" data-project-index="3">CASE STUDY</button>
+                <a class="btn-ghost" href="https://github.com/preetamvr1595/-Mental-Health-Chatbot" target="_blank" rel="noreferrer">VIEW CODE ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 05: Diabetic Retinopathy Vision -->
+          <article class="project-slide crosshair" data-category="vision">
+            <div class="project-top-row">
+              <span>05 / 10 · COMPUTER VISION &amp; DEEP LEARNING</span>
+              <span class="live-pill">HEALTHCARE AI</span>
+            </div>
+
+            <div class="project-screen-mock">
+              <div class="screen-content">
+                <div class="screen-badge">VISION CNN · RETINAL FUNDUS SCANNER</div>
+                <div class="screen-title">Diabetic Retinopathy Screening</div>
+                <div class="screen-subtitle">NOVEL CLAHE FILTER · ATTENTION SEGMENTATION · 5 SEVERITY STAGES</div>
+                <div class="screen-bars">
+                  <span style="height: 95%;"></span>
+                  <span style="height: 60%;"></span>
+                  <span style="height: 85%;"></span>
+                  <span style="height: 70%;"></span>
+                  <span style="height: 90%;"></span>
+                  <span style="height: 55%;"></span>
+                  <span style="height: 80%;"></span>
+                </div>
+                <div class="screen-ascii-status">
+                  <span>[INPUT: CLAHE RGB]</span>
+                  <span>[CLASSES: 5 STAGES]</span>
+                  <span>[AUC: 0.94]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details-row">
+              <div>
+                <h3 class="project-title">Diabetic Retinopathy — Medical Vision Screening</h3>
+                <p class="project-desc">
+                  Deep learning computer vision architecture tailored for medical screening, grading 5 clinical severity stages of diabetic retinopathy from retinal fundus imagery using novel CLAHE filtering and spatial attention mechanisms.
+                </p>
+                <div class="project-tags">
+                  <span class="chip">PYTORCH</span>
+                  <span class="chip">COMPUTER VISION</span>
+                  <span class="chip">CNN</span>
+                  <span class="chip">CLAHE FILTER</span>
+                  <span class="chip">OPENCV</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <button class="btn-solid open-modal-btn" data-project-index="4">CASE STUDY</button>
+                <a class="btn-ghost" href="https://github.com/preetamvr1595/Diabetic-Retinopathy-Novel-Filter" target="_blank" rel="noreferrer">VIEW CODE ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 06: InsightAI Analytics Platform -->
+          <article class="project-slide crosshair" data-category="saas">
+            <div class="project-top-row">
+              <span>06 / 10 · DATA ANALYTICS &amp; VISUALIZATION</span>
+              <span>DECISION INTELLIGENCE · 2026</span>
+            </div>
+
+            <div class="project-screen-mock">
+              <div class="screen-content">
+                <div class="screen-badge">INSIGHTAI v2.4 · AUTOMATED EDA ENGINE</div>
+                <div class="screen-title">InsightAI Analytics Platform</div>
+                <div class="screen-subtitle">DATA → AUTOMATED EDA → STATISTICAL REPORTING</div>
+                <div class="screen-bars">
+                  <span style="height: 45%;"></span>
+                  <span style="height: 75%;"></span>
+                  <span style="height: 35%;"></span>
+                  <span style="height: 90%;"></span>
+                  <span style="height: 60%;"></span>
+                  <span style="height: 80%;"></span>
+                  <span style="height: 50%;"></span>
+                  <span style="height: 95%;"></span>
+                  <span style="height: 70%;"></span>
+                  <span style="height: 85%;"></span>
+                </div>
+                <div class="screen-ascii-status">
+                  <span>[STATUS: ONLINE]</span>
+                  <span>[VARIANCE: 0.042]</span>
+                  <span>[METRIC: R2=0.91]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details-row">
+              <div>
+                <h3 class="project-title">InsightAI — Enterprise Analytics &amp; Automated EDA</h3>
+                <p class="project-desc">
+                  An automated data analytics exploration and reporting engine that extracts statistical patterns, correlations, and actionable summaries from multi-dimensional datasets with zero boilerplate.
+                </p>
+                <div class="project-tags">
+                  <span class="chip">PYTHON</span>
+                  <span class="chip">PANDAS</span>
+                  <span class="chip">NUMPY</span>
+                  <span class="chip">SEABORN</span>
+                  <span class="chip">EDA ENGINE</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <button class="btn-solid open-modal-btn" data-project-index="5">CASE STUDY</button>
+                <a class="btn-ghost" href="https://github.com/preetamvr1595/InsightAI-Analytics" target="_blank" rel="noreferrer">VIEW CODE ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 07: Bengaluru Real Estate ML -->
+          <article class="project-slide crosshair" data-category="ml">
+            <div class="project-top-row">
+              <span>07 / 10 · MACHINE LEARNING &amp; PIPELINES</span>
+              <span>VALUATION ENGINE · 2026</span>
+            </div>
+
+            <div class="project-screen-mock">
+              <div class="screen-content">
+                <div class="screen-badge">HOUSING ML · PIPELINE v1.8</div>
+                <div class="screen-title">Bengaluru Real Estate ML</div>
+                <div class="screen-subtitle">13,000+ LISTINGS · OUTLIER ELIMINATION · REGRESSION</div>
+                <div class="screen-bars">
+                  <span style="height: 60%;"></span>
+                  <span style="height: 40%;"></span>
+                  <span style="height: 85%;"></span>
+                  <span style="height: 55%;"></span>
+                  <span style="height: 100%;"></span>
+                  <span style="height: 65%;"></span>
+                  <span style="height: 75%;"></span>
+                  <span style="height: 90%;"></span>
+                </div>
+                <div class="screen-ascii-status">
+                  <span>[OUTLIERS: REMOVED]</span>
+                  <span>[LOCATIONS: +200]</span>
+                  <span>[RMSE: MINIMAL]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details-row">
+              <div>
+                <h3 class="project-title">Bengaluru Real Estate — Valuation &amp; Outlier ML</h3>
+                <p class="project-desc">
+                  Statistical valuation pipeline engineered on 13,000+ property records. Incorporates custom unit normalizations, location-based standard deviation outlier removal, and linear regression price prediction.
+                </p>
+                <div class="project-tags">
+                  <span class="chip">SCIKIT-LEARN</span>
+                  <span class="chip">FEATURE ENGINEERING</span>
+                  <span class="chip">OUTLIER FILTERING</span>
+                  <span class="chip">PYTHON</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <button class="btn-solid open-modal-btn" data-project-index="6">CASE STUDY</button>
+                <a class="btn-ghost" href="https://github.com/preetamvr1595/bengaluru-real-estate-analytics-ml" target="_blank" rel="noreferrer">VIEW CODE ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 08: Luxury Jewellery E-Commerce (Live Deployment! Direct link, no view modal as requested) -->
+          <article class="project-slide crosshair" data-category="saas">
+            <div class="project-top-row">
+              <span>08 / 10 · FULL-STACK WEB APPLICATION</span>
+              <span class="live-pill">LIVE CLOUD STORE</span>
+            </div>
+
+            <div class="project-screen-mock">
+              <div class="screen-content">
+                <div class="screen-badge">LUXURY CATALOG · E-COMMERCE SHOWCASE</div>
+                <div class="screen-title">Jewellers Luxury Portal</div>
+                <div class="screen-subtitle">LIVE RATES · GOLD &amp; DIAMOND CATALOG · RESPONSIVE UI</div>
+                <div class="screen-bars">
+                  <span style="height: 80%;"></span>
+                  <span style="height: 95%; background: #00f5d4;"></span>
+                  <span style="height: 70%;"></span>
+                  <span style="height: 85%;"></span>
+                  <span style="height: 60%;"></span>
+                  <span style="height: 90%;"></span>
+                </div>
+                <div class="screen-ascii-status">
+                  <span>[STORE: ONLINE]</span>
+                  <span>[COLLECTIONS: FILTERABLE]</span>
+                  <span>[DEPLOY: RENDER PROD]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details-row">
+              <div>
+                <h3 class="project-title">Luxury E-Commerce Jewellery Platform</h3>
+                <p class="project-desc">
+                  Modern luxury jewellery showcase and e-commerce web platform deployed on Render. Features filterable diamond and gold collections, precious metal weight calculators, interactive product previews, and sleek mobile-first design.
+                </p>
+                <div class="project-tags">
+                  <span class="chip">JAVASCRIPT</span>
+                  <span class="chip">HTML5</span>
+                  <span class="chip">MODERN CSS</span>
+                  <span class="chip">RESPONSIVE UI</span>
+                  <span class="chip">RENDER CLOUD</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <a class="btn-solid btn-live-accent" href="https://jewellers-q3kn.onrender.com" target="_blank" rel="noreferrer">
+                  VISIT LIVE STORE ↗
+                </a>
+                <a class="btn-ghost" href="https://github.com/preetamvr1595/jewellers" target="_blank" rel="noreferrer">
+                  VIEW CODE ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 09: WhatsApp CRM -->
+          <article class="project-slide crosshair" data-category="saas">
+            <div class="project-top-row">
+              <span>09 / 10 · SAAS &amp; API AUTOMATION</span>
+              <span>NEXT.JS 16 &amp; META API · 2026</span>
+            </div>
+
+            <div class="project-screen-mock">
+              <div class="screen-content">
+                <div class="screen-badge">META CLOUD API · SUPABASE CDP · AUTOMATIONS</div>
+                <div class="screen-title">WhatsApp CRM Engine</div>
+                <div class="screen-subtitle">TEAM INBOX · SALES PIPELINES · INTERACTIVE CHAT FLOWS</div>
+                <div class="screen-bars">
+                  <span style="height: 70%;"></span>
+                  <span style="height: 65%;"></span>
+                  <span style="height: 85%;"></span>
+                  <span style="height: 90%;"></span>
+                  <span style="height: 75%;"></span>
+                  <span style="height: 80%;"></span>
+                </div>
+                <div class="screen-ascii-status">
+                  <span>[WEBHOOK: INSTANTANEOUS]</span>
+                  <span>[INBOX: MULTI-AGENT]</span>
+                  <span>[CDP: SUPABASE]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details-row">
+              <div>
+                <h3 class="project-title">WhatsApp CRM &amp; Omnichannel Broadcast Engine</h3>
+                <p class="project-desc">
+                  Self-hostable WhatsApp CRM built with Next.js 16, Supabase, and Meta Cloud API. Features collaborative shared team inbox, customer CDP, sales pipelines, mass broadcast scheduler, and interactive WhatsApp chat flows.
+                </p>
+                <div class="project-tags">
+                  <span class="chip">NEXT.JS 16</span>
+                  <span class="chip">TYPESCRIPT</span>
+                  <span class="chip">SUPABASE</span>
+                  <span class="chip">META CLOUD API</span>
+                  <span class="chip">WEBHOOKS</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <button class="btn-solid open-modal-btn" data-project-index="8">CASE STUDY</button>
+                <a class="btn-ghost" href="https://github.com/preetamvr1595/whatsapp-crm" target="_blank" rel="noreferrer">VIEW CODE ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 10: SANJEEVANI-X (UB-1104) -->
+          <article class="project-slide crosshair" data-category="vision">
+            <div class="project-top-row">
+              <span>10 / 10 · EMERGENCY AI &amp; VISION</span>
+              <span>SITUATIONAL GRID · 2026</span>
+            </div>
+
+            <div class="project-screen-mock">
+              <div class="screen-content">
+                <div class="screen-badge">SANJEEVANI-X · SITUATIONAL AWARENESS HUD</div>
+                <div class="screen-title">AI Emergency Response Grid</div>
+                <div class="screen-subtitle">DEGRADED VISION RESTORATION · RAPID GEO-DISPATCHING</div>
+                <div class="screen-bars">
+                  <span style="height: 85%;"></span>
+                  <span style="height: 90%;"></span>
+                  <span style="height: 65%;"></span>
+                  <span style="height: 95%;"></span>
+                  <span style="height: 80%;"></span>
+                </div>
+                <div class="screen-ascii-status">
+                  <span>[VISION: ENHANCED]</span>
+                  <span>[DISPATCH: OPTIMIZED]</span>
+                  <span>[LATENCY: LOW]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details-row">
+              <div>
+                <h3 class="project-title">SANJEEVANI-X (UB-1104) — AI Emergency Response Grid</h3>
+                <p class="project-desc">
+                  Ultra-advanced AI emergency grid designed for situational awareness, real-time visual enhancement under low-light/fog conditions, and rapid geo-spatial emergency dispatching.
+                </p>
+                <div class="project-tags">
+                  <span class="chip">COMPUTER VISION</span>
+                  <span class="chip">DEEP LEARNING</span>
+                  <span class="chip">EMERGENCY AI</span>
+                  <span class="chip">IMAGE RESTORATION</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <button class="btn-solid open-modal-btn" data-project-index="9">CASE STUDY</button>
+                <a class="btn-ghost" href="https://github.com/preetamvr1595/UB-1104" target="_blank" rel="noreferrer">VIEW CODE ↗</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 03: THE LAB / EXPERIMENTS (03 / 04 · LAB)
+         ========================================================================== -->
+    <section id="lab" class="section">
+      <div class="section-tag">
+        <span>|</span> [ 03 / 04 ] · THE SITE, TAKEN APART
+      </div>
+      <h2 class="section-headline">
+        INTERACTIVE<br>
+        <em>EXPERIMENTS.</em>
+      </h2>
+      <p style="font-size: 14px; color: var(--paper-muted); margin-bottom: 32px; font-family: var(--font-mono);">
+        04 EXPERIMENTS · DISASSEMBLED INTERFACE &amp; CODE ARTIFACTS
+      </p>
+
+      <div class="lab-grid">
+        <div class="lab-card crosshair" id="toggleNegativeMode">
+          <div class="lab-tag">EASTER EGG · DISPLAY</div>
+          <div class="lab-title">Negative Mode</div>
+          <div class="lab-footer">
+            <span>TOGGLE CONTRAST</span>
+            <span>INVERT ↗</span>
+          </div>
+        </div>
+
+        <div class="lab-card crosshair" id="toggleAudio">
+          <div class="lab-tag">WEB AUDIO API · SYNTHESIS</div>
+          <div class="lab-title">Audio Click</div>
+          <div class="lab-footer">
+            <span>SYNTHETIC BEEP</span>
+            <span>TRIGGER ↗</span>
+          </div>
+        </div>
+
+        <div class="lab-card crosshair" id="triggerGlobeSpin">
+          <div class="lab-tag">CANVAS 3D · MATHEMATICS</div>
+          <div class="lab-title">Dither Sphere</div>
+          <div class="lab-footer">
+            <span>VELOCITY ACCELERATE</span>
+            <span>PULSE ↗</span>
+          </div>
+        </div>
+
+        <a class="lab-card crosshair" href="https://github.com/preetamvr1595" target="_blank" rel="noreferrer">
+          <div class="lab-tag">OPEN SOURCE · REPOSITORIES</div>
+          <div class="lab-title">GitHub Lab</div>
+          <div class="lab-footer">
+            <span>EXPLORE CODE</span>
+            <span>EXTERNAL ↗</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 04: CONTACT SECTION & TERMINAL FORM (04 / 04 · CONTACT)
+         ========================================================================== -->
+    <section id="contact" class="section">
+      <div class="section-tag">
+        <span>|</span> [ 04 / 04 ] · CONTACT
+      </div>
+      <h2 class="section-headline">
+        LET'S WORK<br>
+        <em>TOGETHER.</em>
+      </h2>
+
+      <div class="contact-layout">
+        <div>
+          <a class="contact-email-link" href="mailto:preetham.vr.ai@gmail.com">
+            preetham.vr.ai@gmail.com ↗
+          </a>
+
+          <div class="contact-subhead">Let's Stay in Touch</div>
+
+          <p style="font-size: 15px; color: var(--paper-muted); line-height: 1.6; margin-bottom: 28px;">
+            I am always open to new opportunities, AI/ML engineering roles, graduate positions, and applied AI research collaborations. Let's discuss a problem worth solving.
+          </p>
+
+          <div class="contact-channels">
+            <a class="channel-row" href="mailto:preetham.vr.ai@gmail.com">
+              <span class="channel-label">EMAIL</span>
+              <span>preetham.vr.ai@gmail.com ↗</span>
+            </a>
+            <a class="channel-row" href="https://www.linkedin.com/in/preetham-v-r-865770378/" target="_blank" rel="noreferrer">
+              <span class="channel-label">LINKEDIN</span>
+              <span>linkedin.com/in/preetham-v-r ↗</span>
+            </a>
+            <a class="channel-row" href="https://github.com/preetamvr1595" target="_blank" rel="noreferrer">
+              <span class="channel-label">GITHUB</span>
+              <span>github.com/preetamvr1595 ↗</span>
+            </a>
+            <div class="channel-row">
+              <span class="channel-label">BASE</span>
+              <span>DAVANGERE, KARNATAKA, INDIA (REMOTE READY)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terminal-Style Interactive Message Box (Christen Dijoux exact design) -->
+        <div class="terminal-card crosshair">
+          <div class="terminal-header">
+            <span>&gt; NEW_MESSAGE _</span>
+            <div style="display: flex; gap: 8px; align-items: center;">
+              <span>ENCRYPTED CHANNEL</span>
+              <button class="star-btn" id="starBtn2" title="Find star 2 of 3" aria-label="Favorite Star 2">☆</button>
+            </div>
+          </div>
+
+          <form id="terminalForm">
+            <div class="form-group">
+              <label class="form-label" for="senderName">01 · NAME</label>
+              <input class="form-input" type="text" id="senderName" placeholder="Your name or organization" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="senderEmail">02 · EMAIL</label>
+              <input class="form-input" type="email" id="senderEmail" placeholder="your.email@domain.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="senderMessage">03 · MESSAGE</label>
+              <textarea class="form-textarea" id="senderMessage" placeholder="Describe the role, project, or question..." required></textarea>
+            </div>
+
+            <button class="btn-solid" type="submit" style="width: 100%; margin-top: 8px;">
+              SEND MESSAGE →
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER (Christen Dijoux Master Footer Design)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <!-- Topographic Wireframe Wave Canvas -->
+    <div class="footer-wave-container">
+      <canvas id="footerWaveCanvas"></canvas>
+    </div>
+
+    <!-- Giant Edge-to-Edge Typography -->
+    <div class="footer-giant-title">
+      PREETHAM V R
+    </div>
+
+    <!-- 5-Column Grid -->
+    <div class="footer-columns-grid">
+      <div class="footer-col">
+        <div class="footer-col-head">
+          <span class="brand-emblem">PV</span>
+          <button class="star-btn" id="starBtn3" title="Find star 3 of 3" aria-label="Favorite Star 3">☆</button>
+        </div>
+        <div class="footer-role-label">APPLIED AI &amp; ML SPECIALIST — DAVANGERE, INDIA.</div>
+        <p class="footer-col-text">
+          I design, train, and deploy machine learning models, statistical feature pipelines, and computer vision architectures that solve practical problems.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-col-num">01</div>
+        <div class="footer-col-title">Projects &amp; Deployments</div>
+        <nav class="footer-link-list">
+          <a href="https://f1-race-predictor-live-api-data-pipeline.onrender.com" target="_blank" rel="noreferrer">F1 RACE PREDICTOR (LIVE ↗)</a>
+          <a href="https://jewellers-q3kn.onrender.com" target="_blank" rel="noreferrer">LUXURY JEWELLERS (LIVE ↗)</a>
+          <a href="https://github.com/preetamvr1595/NexusDesk-AI-IT-Service-Desk" target="_blank" rel="noreferrer">NEXUSDESK MULTI-AGENT ↗</a>
+          <a href="https://github.com/preetamvr1595/AI-Detection-Humanizer" target="_blank" rel="noreferrer">AI DETECTION &amp; HUMANIZER ↗</a>
+          <a href="https://github.com/preetamvr1595/Diabetic-Retinopathy-Novel-Filter" target="_blank" rel="noreferrer">DIABETIC RETINOPATHY ↗</a>
+          <a href="https://github.com/preetamvr1595/whatsapp-crm" target="_blank" rel="noreferrer">WHATSAPP CRM ↗</a>
+          <a href="https://github.com/preetamvr1595/InsightAI-Analytics" target="_blank" rel="noreferrer">INSIGHTAI ANALYTICS ↗</a>
+          <a href="https://github.com/preetamvr1595/bengaluru-real-estate-analytics-ml" target="_blank" rel="noreferrer">BENGALURU REAL ESTATE ML ↗</a>
+        </nav>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-col-num">02</div>
+        <div class="footer-col-title">Social &amp; Repos</div>
+        <nav class="footer-link-list">
+          <a href="https://github.com/preetamvr1595" target="_blank" rel="noreferrer">GITHUB (preetamvr1595) ↗</a>
+          <a href="https://www.linkedin.com/in/preetham-v-r-865770378/" target="_blank" rel="noreferrer">LINKEDIN (preetham-v-r) ↗</a>
+          <a href="mailto:preetham.vr.ai@gmail.com">DIRECT EMAIL ↗</a>
+        </nav>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-col-num">03</div>
+        <div class="footer-col-title">Research &amp; Agent</div>
+        <nav class="footer-link-list">
+          <a href="#ploppy">MEET PLOPPY (3D AGENT)</a>
+          <a href="#lab">THE LAB EXPERIMENTS</a>
+          <a href="#about">ACADEMIC JOURNEY</a>
+          <a href="mailto:preetham.vr.ai@gmail.com?subject=Resume%20Request">REQUEST RESUME</a>
+          <a href="#toolkit">TOOLKIT MATRIX (32+)</a>
+        </nav>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-col-num">04</div>
+        <div class="footer-col-title">Davangere</div>
+        <div class="footer-col-text">
+          KARNATAKA, INDIA<br>
+          14.46°N · 75.92°E
+        </div>
+      </div>
+    </div>
+
+    <!-- Sub-Footer Bar -->
+    <div class="sub-footer-bar">
+      <div class="sub-footer-left">
+        BIG SHOULDERS DISPLAY, GEIST MONO · THREE.JS / 3D CANVAS · VANILLA JAVASCRIPT
+      </div>
+      <div class="sub-footer-center">
+        ✦ <span id="starCounter">0</span> / 3 STARS FOUND
+      </div>
+      <div class="sub-footer-right">
+        <a href="#top" class="back-to-top-link">BACK TO TOP ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FLOATING AI ASSISTANT WIDGET & CHAT DRAWER (FEATURING PLOPPY)
+       ========================================================================== -->
+  <div class="assistant-trigger" id="assistantTrigger">
+    <div class="assistant-tooltip" id="assistantTooltip">
+      <span>✦ Ploppy is online: Ask about Preetham's 10 projects, F1 ML pipeline, or live sites!</span>
+      <button class="tooltip-close" id="tooltipClose" aria-label="Close tooltip">✕</button>
+    </div>
+    <span class="assistant-badge" style="background: #00d2ff; color: #050505;">🤖</span>
+    <span>PLOPPY AI</span>
+  </div>
+
+  <div class="chat-drawer" id="chatDrawer">
+    <div class="chat-head">
+      <div class="chat-title">
+        <span class="assistant-badge" style="background: #00d2ff; color: #050505;">🤖</span>
+        <span>PLOPPY — PREETHAM'S AI CO-PILOT</span>
+      </div>
+      <button class="chat-close" id="chatClose" aria-label="Close Assistant">✕</button>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="msg bot">
+        Hello! I'm Ploppy, Preetham's interactive AI co-pilot. Ask me about his machine learning models, live cloud deployments (F1 Race Predictor &amp; Luxury Jewellery Store), multi-agent architectures, or how to get in touch!
+      </div>
+    </div>
+
+    <div class="chat-quick-prompts">
+      <button class="prompt-btn" data-prompt="Tell me about the F1 Race Predictor live project">F1 Predictor?</button>
+      <button class="prompt-btn" data-prompt="What projects has Preetham built?">All 10 Projects?</button>
+      <button class="prompt-btn" data-prompt="What are the live cloud deployments?">Live Deployments?</button>
+      <button class="prompt-btn" data-prompt="How can I contact or hire Preetham?">Hire Preetham?</button>
+    </div>
+
+    <div class="chat-input-row">
+      <input type="text" id="chatInput" placeholder="Ask Ploppy a question..." autocomplete="off">
+      <button class="chat-send-btn" id="chatSendBtn">→</button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       COOKIE & PRIVACY BANNER
+       ========================================================================== -->
+  <div class="cookie-banner" id="cookieBanner">
+    <div class="cookie-title">
+      <span>✦</span> COOKIES &amp; PRIVACY
+    </div>
+    <p>
+      This site respects your privacy. Local state and preferences are stored strictly on your device.
+    </p>
+    <div class="cookie-actions">
+      <button class="cookie-decline" id="cookieDecline">DECLINE</button>
+      <button class="cookie-accept" id="cookieAccept">ACCEPT</button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       PROJECT DETAIL MODAL
+       ========================================================================== -->
+  <div class="project-modal" id="projectModal">
+    <div class="modal-window crosshair">
+      <button class="modal-close" id="modalClose" aria-label="Close Modal">✕</button>
+      <div class="modal-tag" id="modalTag">PROJECT CASE STUDY</div>
+      <h3 class="modal-title" id="modalTitle">Project Title</h3>
+      <div class="modal-body" id="modalContent"></div>
+      <div style="margin-top: 24px; display: flex; gap: 12px;">
+        <a class="btn-solid" id="modalGithub" href="#" target="_blank" rel="noreferrer">OPEN REPOSITORY ON GITHUB ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
