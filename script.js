@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 51: style: enhance responsive layout for tablet viewports (768px - 1024px)
+// Step 52: style: fine-tune mobile drawer and layout responsiveness (320px - 767px)

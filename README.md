@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 51: style: enhance responsive layout for tablet viewports (768px - 1024px) - 2026-10-31 08:37:30 +0530 -->
+<!-- Commit 52: style: fine-tune mobile drawer and layout responsiveness (320px - 767px) - 2026-10-31 12:26:15 +0530 -->
