@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 1: chore: initial repository setup and directory structure - 2026-10-23 10:00:00 +0530 -->
+<!-- Commit 2: docs: add initial project README with portfolio architecture overview - 2026-10-23 13:48:45 +0530 -->
