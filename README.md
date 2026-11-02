@@ -169,4 +169,4 @@ Live Production Instance: **[https://portfolio-lime-eight-d4nwl00cu2.vercel.app/
   <sub>Designed & Developed with precision by <b>Preetham V R</b>. Powered by clean code, pure CSS, and modern web standards.</sub>
 </div>
 
-<!-- [build] 2026-10-19 09:30:00 - feat: add mouse-reactive orbit to 3D hero sphere -->
+<!-- [build] 2026-10-19 14:00:00 - style: tune particle rendering aesthetics and canvas sizing -->
