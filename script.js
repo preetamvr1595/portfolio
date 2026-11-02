@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 45: feat: implement custom cursor follower with mouse tracking
+// Step 46: feat: add scroll progress bar indicator at top of viewport
