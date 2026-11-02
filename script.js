@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 20: feat: implement InsightAI project case study card
+// Step 21: feat: implement Bengaluru Real Estate ML price prediction card

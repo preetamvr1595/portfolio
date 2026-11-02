@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 20: feat: implement InsightAI project case study card - 2026-10-26 10:26:15 +0530 -->
+<!-- Commit 21: feat: implement Bengaluru Real Estate ML price prediction card - 2026-10-26 14:15:00 +0530 -->
