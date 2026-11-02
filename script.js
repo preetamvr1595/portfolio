@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 48: style: add smooth scroll transitions and section anchor offsets
+// Step 49: refactor: optimize 3D particle sphere render loop for 60fps performance
