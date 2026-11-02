@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 12: feat: implement mathematical 3D sphere coordinate generator in script.js
+// Step 13: feat: add interactive mouse orbit and perspective projection to particle sphere
