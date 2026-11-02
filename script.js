@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 21: feat: implement Bengaluru Real Estate ML price prediction card
+// Step 22: feat: implement Sentiment Analysis NLP engine case study card
