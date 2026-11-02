@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 38: feat: add email, LinkedIn, and GitHub external connection links
+// Step 39: feat: add terminal input validation and simulated send feedback
