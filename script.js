@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 36: feat: scaffold Contact & Encrypted Terminal section
+// Step 37: feat: implement interactive terminal message composer layout
