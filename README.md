@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 27: feat: add AI, ML, and Data Analytics competencies to skills matrix - 2026-10-27 13:07:30 +0530 -->
+<!-- Commit 28: feat: add Deep Learning, Computer Vision, and NLP skill badges - 2026-10-27 16:56:15 +0530 -->

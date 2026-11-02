@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 27: feat: add AI, ML, and Data Analytics competencies to skills matrix
+// Step 28: feat: add Deep Learning, Computer Vision, and NLP skill badges
