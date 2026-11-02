@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 50: perf: debounced resize listener and canvas DPR resolution scaling
+// Step 51: style: enhance responsive layout for tablet viewports (768px - 1024px)
