@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 19: feat: scaffold Selected Projects section with grid container - 2026-10-26 06:37:30 +0530 -->
+<!-- Commit 20: feat: implement InsightAI project case study card - 2026-10-26 10:26:15 +0530 -->

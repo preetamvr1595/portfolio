@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 19: feat: scaffold Selected Projects section with grid container
+// Step 20: feat: implement InsightAI project case study card
