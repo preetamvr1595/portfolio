@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 43: feat: add quick suggestion prompt chips to AI Assistant drawer
+// Step 44: style: polish AI chat bubble typography and brutalist aesthetics
