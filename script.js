@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 46: feat: add scroll progress bar indicator at top of viewport
+// Step 47: feat: add back-to-top floating navigation button with smooth scrolling

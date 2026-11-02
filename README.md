@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 46: feat: add scroll progress bar indicator at top of viewport - 2026-10-30 13:33:45 +0530 -->
+<!-- Commit 47: feat: add back-to-top floating navigation button with smooth scrolling - 2026-10-30 17:22:30 +0530 -->
