@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 39: feat: add terminal input validation and simulated send feedback
+// Step 40: feat: create floating AI Assistant chat widget trigger button
