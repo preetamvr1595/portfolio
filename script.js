@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 47: feat: add back-to-top floating navigation button with smooth scrolling
+// Step 48: style: add smooth scroll transitions and section anchor offsets
