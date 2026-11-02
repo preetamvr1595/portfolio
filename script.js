@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 26: feat: add core programming languages (Python, SQL, JavaScript, C++)
+// Step 27: feat: add AI, ML, and Data Analytics competencies to skills matrix
