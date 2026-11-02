@@ -54,4 +54,4 @@ Double-click `index.html` or open it directly in Google Chrome, Microsoft Edge, 
 © 2026 Preetham V R. Designed & engineered with plain HTML5, CSS3, and modern Vanilla JavaScript.
 
 
-<!-- Commit 8: feat: implement live IST local time clock widget in header - 2026-10-24 12:41:15 +0530 -->
+<!-- Commit 9: style: polish navigation bar layout and glassmorphism backdrop filter - 2026-10-24 16:30:00 +0530 -->
