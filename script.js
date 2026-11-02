@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 54: feat: add favicon SVG and apple-touch-icon links
+// Step 55: accessibility: add ARIA labels, roles, and keyboard navigation support
