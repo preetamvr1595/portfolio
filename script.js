@@ -1267,4 +1267,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-// Step 41: feat: implement AI Assistant sliding drawer interface and message stream
+// Step 42: feat: implement intelligent knowledge base response engine in script.js
